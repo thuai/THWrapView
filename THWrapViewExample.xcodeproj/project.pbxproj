@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D478AD6B194EFCE7008D1EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD6A194EFCE7008D1EC0 /* Foundation.framework */; };
+		D478AD6D194EFCE7008D1EC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD6C194EFCE7008D1EC0 /* CoreGraphics.framework */; };
+		D478AD6F194EFCE7008D1EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD6E194EFCE7008D1EC0 /* UIKit.framework */; };
+		D478AD75194EFCE7008D1EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D478AD73194EFCE7008D1EC0 /* InfoPlist.strings */; };
+		D478AD77194EFCE7008D1EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D478AD76194EFCE7008D1EC0 /* main.m */; };
+		D478AD7B194EFCE7008D1EC0 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D478AD7A194EFCE7008D1EC0 /* THAppDelegate.m */; };
+		D478AD7E194EFCE7008D1EC0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D478AD7C194EFCE7008D1EC0 /* Main_iPhone.storyboard */; };
+		D478AD81194EFCE7008D1EC0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D478AD7F194EFCE7008D1EC0 /* Main_iPad.storyboard */; };
+		D478AD84194EFCE7008D1EC0 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D478AD83194EFCE7008D1EC0 /* THViewController.m */; };
+		D478AD86194EFCE7008D1EC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D478AD85194EFCE7008D1EC0 /* Images.xcassets */; };
+		D478AD8D194EFCE7008D1EC0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD8C194EFCE7008D1EC0 /* XCTest.framework */; };
+		D478AD8E194EFCE7008D1EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD6A194EFCE7008D1EC0 /* Foundation.framework */; };
+		D478AD8F194EFCE7008D1EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D478AD6E194EFCE7008D1EC0 /* UIKit.framework */; };
+		D478AD97194EFCE7008D1EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D478AD95194EFCE7008D1EC0 /* InfoPlist.strings */; };
+		D478AD99194EFCE7008D1EC0 /* THWrapViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D478AD98194EFCE7008D1EC0 /* THWrapViewExampleTests.m */; };
+		D478ADB3194EFD14008D1EC0 /* THWrapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADAE194EFD14008D1EC0 /* THWrapCell.m */; };
+		D478ADB4194EFD14008D1EC0 /* THWrapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB0194EFD14008D1EC0 /* THWrapedView.m */; };
+		D478ADB5194EFD14008D1EC0 /* THWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB2194EFD14008D1EC0 /* THWraper.m */; };
+		D478ADB8194EFD9F008D1EC0 /* THCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB7194EFD9F008D1EC0 /* THCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D478AD90194EFCE7008D1EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D478AD5F194EFCE7008D1EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D478AD66194EFCE7008D1EC0;
+			remoteInfo = THWrapViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D478AD67194EFCE7008D1EC0 /* THWrapViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THWrapViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D478AD6A194EFCE7008D1EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D478AD6C194EFCE7008D1EC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D478AD6E194EFCE7008D1EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D478AD72194EFCE7008D1EC0 /* THWrapViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THWrapViewExample-Info.plist"; sourceTree = "<group>"; };
+		D478AD74194EFCE7008D1EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D478AD76194EFCE7008D1EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D478AD78194EFCE7008D1EC0 /* THWrapViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THWrapViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		D478AD79194EFCE7008D1EC0 /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		D478AD7A194EFCE7008D1EC0 /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		D478AD7D194EFCE7008D1EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D478AD80194EFCE7008D1EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D478AD82194EFCE7008D1EC0 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		D478AD83194EFCE7008D1EC0 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		D478AD85194EFCE7008D1EC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D478AD8B194EFCE7008D1EC0 /* THWrapViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THWrapViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D478AD8C194EFCE7008D1EC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D478AD94194EFCE7008D1EC0 /* THWrapViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THWrapViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		D478AD96194EFCE7008D1EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D478AD98194EFCE7008D1EC0 /* THWrapViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THWrapViewExampleTests.m; sourceTree = "<group>"; };
+		D478ADAD194EFD14008D1EC0 /* THWrapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWrapCell.h; sourceTree = "<group>"; };
+		D478ADAE194EFD14008D1EC0 /* THWrapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWrapCell.m; sourceTree = "<group>"; };
+		D478ADAF194EFD14008D1EC0 /* THWrapedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWrapedView.h; sourceTree = "<group>"; };
+		D478ADB0194EFD14008D1EC0 /* THWrapedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWrapedView.m; sourceTree = "<group>"; };
+		D478ADB1194EFD14008D1EC0 /* THWraper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWraper.h; sourceTree = "<group>"; };
+		D478ADB2194EFD14008D1EC0 /* THWraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWraper.m; sourceTree = "<group>"; };
+		D478ADB6194EFD9F008D1EC0 /* THCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCell.h; sourceTree = "<group>"; };
+		D478ADB7194EFD9F008D1EC0 /* THCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D478AD64194EFCE7008D1EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478AD6D194EFCE7008D1EC0 /* CoreGraphics.framework in Frameworks */,
+				D478AD6F194EFCE7008D1EC0 /* UIKit.framework in Frameworks */,
+				D478AD6B194EFCE7008D1EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D478AD88194EFCE7008D1EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478AD8D194EFCE7008D1EC0 /* XCTest.framework in Frameworks */,
+				D478AD8F194EFCE7008D1EC0 /* UIKit.framework in Frameworks */,
+				D478AD8E194EFCE7008D1EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D478AD5E194EFCE7008D1EC0 = {
+			isa = PBXGroup;
+			children = (
+				D478ADAC194EFD14008D1EC0 /* THWrapView */,
+				D478AD70194EFCE7008D1EC0 /* THWrapViewExample */,
+				D478AD92194EFCE7008D1EC0 /* THWrapViewExampleTests */,
+				D478AD69194EFCE7008D1EC0 /* Frameworks */,
+				D478AD68194EFCE7008D1EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D478AD68194EFCE7008D1EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D478AD67194EFCE7008D1EC0 /* THWrapViewExample.app */,
+				D478AD8B194EFCE7008D1EC0 /* THWrapViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D478AD69194EFCE7008D1EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D478AD6A194EFCE7008D1EC0 /* Foundation.framework */,
+				D478AD6C194EFCE7008D1EC0 /* CoreGraphics.framework */,
+				D478AD6E194EFCE7008D1EC0 /* UIKit.framework */,
+				D478AD8C194EFCE7008D1EC0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D478AD70194EFCE7008D1EC0 /* THWrapViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				D478ADB6194EFD9F008D1EC0 /* THCell.h */,
+				D478ADB7194EFD9F008D1EC0 /* THCell.m */,
+				D478AD79194EFCE7008D1EC0 /* THAppDelegate.h */,
+				D478AD7A194EFCE7008D1EC0 /* THAppDelegate.m */,
+				D478AD7C194EFCE7008D1EC0 /* Main_iPhone.storyboard */,
+				D478AD7F194EFCE7008D1EC0 /* Main_iPad.storyboard */,
+				D478AD82194EFCE7008D1EC0 /* THViewController.h */,
+				D478AD83194EFCE7008D1EC0 /* THViewController.m */,
+				D478AD85194EFCE7008D1EC0 /* Images.xcassets */,
+				D478AD71194EFCE7008D1EC0 /* Supporting Files */,
+			);
+			path = THWrapViewExample;
+			sourceTree = "<group>";
+		};
+		D478AD71194EFCE7008D1EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D478AD72194EFCE7008D1EC0 /* THWrapViewExample-Info.plist */,
+				D478AD73194EFCE7008D1EC0 /* InfoPlist.strings */,
+				D478AD76194EFCE7008D1EC0 /* main.m */,
+				D478AD78194EFCE7008D1EC0 /* THWrapViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D478AD92194EFCE7008D1EC0 /* THWrapViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D478AD98194EFCE7008D1EC0 /* THWrapViewExampleTests.m */,
+				D478AD93194EFCE7008D1EC0 /* Supporting Files */,
+			);
+			path = THWrapViewExampleTests;
+			sourceTree = "<group>";
+		};
+		D478AD93194EFCE7008D1EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D478AD94194EFCE7008D1EC0 /* THWrapViewExampleTests-Info.plist */,
+				D478AD95194EFCE7008D1EC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D478ADAC194EFD14008D1EC0 /* THWrapView */ = {
+			isa = PBXGroup;
+			children = (
+				D478ADAD194EFD14008D1EC0 /* THWrapCell.h */,
+				D478ADAE194EFD14008D1EC0 /* THWrapCell.m */,
+				D478ADAF194EFD14008D1EC0 /* THWrapedView.h */,
+				D478ADB0194EFD14008D1EC0 /* THWrapedView.m */,
+				D478ADB1194EFD14008D1EC0 /* THWraper.h */,
+				D478ADB2194EFD14008D1EC0 /* THWraper.m */,
+			);
+			path = THWrapView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D478AD66194EFCE7008D1EC0 /* THWrapViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D478AD9C194EFCE7008D1EC0 /* Build configuration list for PBXNativeTarget "THWrapViewExample" */;
+			buildPhases = (
+				D478AD63194EFCE7008D1EC0 /* Sources */,
+				D478AD64194EFCE7008D1EC0 /* Frameworks */,
+				D478AD65194EFCE7008D1EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THWrapViewExample;
+			productName = THWrapViewExample;
+			productReference = D478AD67194EFCE7008D1EC0 /* THWrapViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D478AD8A194EFCE7008D1EC0 /* THWrapViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D478AD9F194EFCE7008D1EC0 /* Build configuration list for PBXNativeTarget "THWrapViewExampleTests" */;
+			buildPhases = (
+				D478AD87194EFCE7008D1EC0 /* Sources */,
+				D478AD88194EFCE7008D1EC0 /* Frameworks */,
+				D478AD89194EFCE7008D1EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D478AD91194EFCE7008D1EC0 /* PBXTargetDependency */,
+			);
+			name = THWrapViewExampleTests;
+			productName = THWrapViewExampleTests;
+			productReference = D478AD8B194EFCE7008D1EC0 /* THWrapViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D478AD5F194EFCE7008D1EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					D478AD8A194EFCE7008D1EC0 = {
+						TestTargetID = D478AD66194EFCE7008D1EC0;
+					};
+				};
+			};
+			buildConfigurationList = D478AD62194EFCE7008D1EC0 /* Build configuration list for PBXProject "THWrapViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D478AD5E194EFCE7008D1EC0;
+			productRefGroup = D478AD68194EFCE7008D1EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D478AD66194EFCE7008D1EC0 /* THWrapViewExample */,
+				D478AD8A194EFCE7008D1EC0 /* THWrapViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D478AD65194EFCE7008D1EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478AD81194EFCE7008D1EC0 /* Main_iPad.storyboard in Resources */,
+				D478AD86194EFCE7008D1EC0 /* Images.xcassets in Resources */,
+				D478AD7E194EFCE7008D1EC0 /* Main_iPhone.storyboard in Resources */,
+				D478AD75194EFCE7008D1EC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D478AD89194EFCE7008D1EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478AD97194EFCE7008D1EC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D478AD63194EFCE7008D1EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478ADB5194EFD14008D1EC0 /* THWraper.m in Sources */,
+				D478ADB4194EFD14008D1EC0 /* THWrapedView.m in Sources */,
+				D478AD84194EFCE7008D1EC0 /* THViewController.m in Sources */,
+				D478ADB3194EFD14008D1EC0 /* THWrapCell.m in Sources */,
+				D478AD7B194EFCE7008D1EC0 /* THAppDelegate.m in Sources */,
+				D478AD77194EFCE7008D1EC0 /* main.m in Sources */,
+				D478ADB8194EFD9F008D1EC0 /* THCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D478AD87194EFCE7008D1EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D478AD99194EFCE7008D1EC0 /* THWrapViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D478AD91194EFCE7008D1EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D478AD66194EFCE7008D1EC0 /* THWrapViewExample */;
+			targetProxy = D478AD90194EFCE7008D1EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D478AD73194EFCE7008D1EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D478AD74194EFCE7008D1EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D478AD7C194EFCE7008D1EC0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D478AD7D194EFCE7008D1EC0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D478AD7F194EFCE7008D1EC0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D478AD80194EFCE7008D1EC0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D478AD95194EFCE7008D1EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D478AD96194EFCE7008D1EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D478AD9A194EFCE7008D1EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D478AD9B194EFCE7008D1EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D478AD9D194EFCE7008D1EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THWrapViewExample/THWrapViewExample-Prefix.pch";
+				INFOPLIST_FILE = "THWrapViewExample/THWrapViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D478AD9E194EFCE7008D1EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THWrapViewExample/THWrapViewExample-Prefix.pch";
+				INFOPLIST_FILE = "THWrapViewExample/THWrapViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D478ADA0194EFCE7008D1EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THWrapViewExample.app/THWrapViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THWrapViewExample/THWrapViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "THWrapViewExampleTests/THWrapViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D478ADA1194EFCE7008D1EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THWrapViewExample.app/THWrapViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THWrapViewExample/THWrapViewExample-Prefix.pch";
+				INFOPLIST_FILE = "THWrapViewExampleTests/THWrapViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D478AD62194EFCE7008D1EC0 /* Build configuration list for PBXProject "THWrapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D478AD9A194EFCE7008D1EC0 /* Debug */,
+				D478AD9B194EFCE7008D1EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D478AD9C194EFCE7008D1EC0 /* Build configuration list for PBXNativeTarget "THWrapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D478AD9D194EFCE7008D1EC0 /* Debug */,
+				D478AD9E194EFCE7008D1EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D478AD9F194EFCE7008D1EC0 /* Build configuration list for PBXNativeTarget "THWrapViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D478ADA0194EFCE7008D1EC0 /* Debug */,
+				D478ADA1194EFCE7008D1EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D478AD5F194EFCE7008D1EC0 /* Project object */;
+}
