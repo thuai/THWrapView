@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 lazy-thuai. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class THWrapedView;
 @class THWrapCell;
