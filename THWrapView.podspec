@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "5.0"
   s.source       = { :git => "http://github.com/thuai/THWrapView.git", :tag => "v1.0" }
-  s.source_files  = "THWrapView/*"
-  s.public_header_files = "THWrapView/*.h"
+  s.source_files  = "THWrapView"
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true
 end
