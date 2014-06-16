@@ -3,10 +3,6 @@
 
 ---
 
-![image](./screen_capture.PNG)
-
-
-=======
 ![image](./screen_capture.png)
 
 Use CocoaPods
