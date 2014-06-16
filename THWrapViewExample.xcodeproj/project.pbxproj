@@ -24,7 +24,6 @@
 		D478AD99194EFCE7008D1EC0 /* THWrapViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D478AD98194EFCE7008D1EC0 /* THWrapViewExampleTests.m */; };
 		D478ADB3194EFD14008D1EC0 /* THWrapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADAE194EFD14008D1EC0 /* THWrapCell.m */; };
 		D478ADB4194EFD14008D1EC0 /* THWrapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB0194EFD14008D1EC0 /* THWrapedView.m */; };
-		D478ADB5194EFD14008D1EC0 /* THWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB2194EFD14008D1EC0 /* THWraper.m */; };
 		D478ADB8194EFD9F008D1EC0 /* THCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D478ADB7194EFD9F008D1EC0 /* THCell.m */; };
 /* End PBXBuildFile section */
 
@@ -63,8 +62,6 @@
 		D478ADAE194EFD14008D1EC0 /* THWrapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWrapCell.m; sourceTree = "<group>"; };
 		D478ADAF194EFD14008D1EC0 /* THWrapedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWrapedView.h; sourceTree = "<group>"; };
 		D478ADB0194EFD14008D1EC0 /* THWrapedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWrapedView.m; sourceTree = "<group>"; };
-		D478ADB1194EFD14008D1EC0 /* THWraper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWraper.h; sourceTree = "<group>"; };
-		D478ADB2194EFD14008D1EC0 /* THWraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWraper.m; sourceTree = "<group>"; };
 		D478ADB6194EFD9F008D1EC0 /* THCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCell.h; sourceTree = "<group>"; };
 		D478ADB7194EFD9F008D1EC0 /* THCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,8 +174,6 @@
 				D478ADAE194EFD14008D1EC0 /* THWrapCell.m */,
 				D478ADAF194EFD14008D1EC0 /* THWrapedView.h */,
 				D478ADB0194EFD14008D1EC0 /* THWrapedView.m */,
-				D478ADB1194EFD14008D1EC0 /* THWraper.h */,
-				D478ADB2194EFD14008D1EC0 /* THWraper.m */,
 			);
 			path = THWrapView;
 			sourceTree = "<group>";
@@ -282,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D478ADB5194EFD14008D1EC0 /* THWraper.m in Sources */,
 				D478ADB4194EFD14008D1EC0 /* THWrapedView.m in Sources */,
 				D478AD84194EFCE7008D1EC0 /* THViewController.m in Sources */,
 				D478ADB3194EFD14008D1EC0 /* THWrapCell.m in Sources */,
@@ -503,6 +497,7 @@
 				D478AD9E194EFCE7008D1EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D478AD9F194EFCE7008D1EC0 /* Build configuration list for PBXNativeTarget "THWrapViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +506,7 @@
 				D478ADA1194EFCE7008D1EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
