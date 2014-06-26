@@ -13,7 +13,7 @@
 
 @protocol THWrapedViewDataSource <NSObject>
 
-- (NSInteger)numberOfCell;
+- (NSInteger)numberOfCell; // 总的cell数
 - (THWrapCell *)wrapView:(THWrapedView *)wrapView cellForIndex:(NSUInteger)index;
 
 @end

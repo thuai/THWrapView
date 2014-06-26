@@ -51,7 +51,7 @@
     }
     
     // valid area size to layout subviews
-    CGFloat validWidth = CGRectGetWidth(self.frame) - edgeInsets.left - edgeInsets.right;
+    CGFloat validWidth = CGRectGetWidth(self.frame) - edgeInsets.left;
 
     // the total width of layout subview
     __block CGFloat layoutedWidth = edgeInsets.left;
