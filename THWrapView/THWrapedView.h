@@ -24,10 +24,11 @@
 - (UIEdgeInsets)edgeInsetsForWrapView:(THWrapedView *)wrapView;
 - (CGFloat)minimumLineSpacingOfWrapView:(THWrapedView *)wrapView;
 - (CGFloat)minimumInteritemSpacingOfWrapView:(THWrapedView *)wrapView;
+- (void)layoutDidFinished:(THWrapedView *)wrapView;
 @end
 
-typedef void (^THWrapDidSelectedCellBlock)(NSIndexPath *indexPath);
-typedef void (^THWrapDidDeselectedCellBlock)(NSIndexPath *indexPath);
+typedef void (^THWrapDidSelectedCellBlock)(NSUInteger index);
+typedef void (^THWrapDidDeselectedCellBlock)(NSUInteger index);
 
 @interface THWrapedView : UIView
 

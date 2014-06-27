@@ -95,6 +95,15 @@
 
         view.frame = newFrame;
     }];
+    
+    // reframe self
+    CGRect newFrame = self.frame;
+    newFrame.size.height = layoutedHeight + rowMaxHeight + edgeInsets.bottom;
+    self.frame = newFrame;
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(layoutDidFinished:)]) {
+        [self.delegate layoutDidFinished:self];
+    }
 }
 
 - (void)reloadData
@@ -117,6 +126,8 @@
         for (int i=0; i<newCount; i++) {
             if (self.dataSource && [self.dataSource respondsToSelector:@selector(wrapView:cellForIndex:)]) {
                 THWrapCell *cell = [self.dataSource wrapView:self cellForIndex:i];
+                cell.wrapView = self;
+                cell.index = i;
                 [self.visibleCells addObject:cell];
                 [self addSubview:cell];
             }

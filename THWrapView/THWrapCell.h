@@ -16,8 +16,10 @@ typedef NS_ENUM(NSInteger, THWrapCellStyle) {
 
 @interface THWrapCell : UIView
 
-@property (nonatomic) THWrapedView *wrapView;
-@property (nonatomic) NSIndexPath *indexPath;
+@property (assign, nonatomic) THWrapedView *wrapView;
+@property (nonatomic        ) NSUInteger   index;
+@property (strong, nonatomic) UIColor      *highlightColor;
+@property (strong, nonatomic) UIColor      *normalColor;
 
 - (instancetype)initWithCellStyle:(THWrapCellStyle)style;
 @end
